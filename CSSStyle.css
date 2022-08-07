@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(77, 77, 77);
+}
+
+.All {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-shadow: 5px 5px wheat;
+    text-align: center;
+    margin-top: 250px;
+    line-height: 0;
+}
+
+.C {
+    position: relative;
+    z-index: -1;
+    top: 100px;
+}
+
+.S2 {
+    position: relative;
+    z-index: 0;
+    top: 90px;
+}
+
+.S3 {
+    position: relative;
+    z-index: 2;
+    top: 90px;
+}

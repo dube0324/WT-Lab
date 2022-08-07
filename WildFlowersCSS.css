@@ -1,0 +1,23 @@
+.F {
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    font-size: 300px;
+    position: relative;
+    left: 100px;
+}
+.Wild{
+    font-family: 'Cedarville Cursive', cursive;
+    color: crimson;
+    position: relative;
+    font-size: 70px;
+    left: 275px;
+    top: -575px;
+}
+.Flowers{
+    font-family: 'Cedarville Cursive', cursive;
+    color: crimson;
+    position: relative;
+    font-size: 70px;
+    left: 250px;
+    top: -675px;
+}
