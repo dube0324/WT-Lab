@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+function getUser() {
+    var userName = document.getElementById('userName').value;
+    console.log(userName);
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("data").innerHTML = this.responseText;
+        }
+    };
+    xmlhttp.open("GET", "process.php?q=" + userName, true);
+    xmlhttp.send();
+}
+</script>
+</head>
+<body>
+    <form action="" method="post"></form>
+<form action="">
+  <label for="userName">userName:</label>
+  <input type="text" id="userName" name="userName">
+  <input type="button" value="submit" onclick="getUser()">
+</form>
+<p id="data"></p>
+</body>
+</html>
